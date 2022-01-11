@@ -1,0 +1,367 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+/* font: 15px/1.5 Arial, Helvetica,sans-serif; */
+padding: 0;
+margin: 0;
+background-color: #f4f4f4;
+
+}
+
+
+/* golobal */
+.container{
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+.button_1{
+    height: 38px;
+    background: #ec423f;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+}
+  
+.dark{
+    padding: 15px;
+    background: #f181d5;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* header */
+
+header{
+ background-color: #ec423f;
+ color: #ffffff;
+ padding-top: 30px;
+ min-height: 65px;
+ border-bottom: rgb(250, 248, 248) 3px solid;
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+   font-size: 16px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #Branding{
+    float: left;
+  
+}
+ header #Branding h1{
+     margin: 0;
+   
+ }
+ header nav{
+     float: right;
+     margin-top: 10px;
+
+ }
+
+
+ header .highlights, header .current a{
+     color: rgb(165, 255, 112);
+     font-weight: bold;
+     
+ }
+ header a:hover{
+     color: #fcf801;
+     font-weight: bold;
+ }
+
+ /* showcase */
+
+#showcase {
+     min-height: 500px;
+     background-image: url("../img/Heart_health.jpg");
+     /* https://www.harikranti.com/images/banner2.jpg */
+     text-align: center;
+     background-size: 100%;
+     background-size: cover;
+     color: #ffffff;
+}
+#showcase p{
+    font-size: 20px;
+
+}
+#newsletter{
+    padding: 10px;
+    color: #000000;
+    background: #f181d5;
+}
+#newsletter h3{
+    float: left;
+    padding-left: 150px;
+    
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+
+#boxes .box img{
+    width: 175px;
+  height: 140px;
+}
+
+
+/* sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+
+}
+
+
+/* main-col */
+article#main-col{
+    float: left;
+    width: 60%;
+}
+
+/* services */
+
+ul#services li{
+    list-style: none;
+    padding: 20PX;
+    border: #cccccc;
+    margin-bottom: 5px;
+    background: #f181d5;
+
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    text-align: center;
+}
+
+/* boxex */
+/* haert_rate */
+
+#boxes a{
+    color: #e90000;
+    text-decoration: none;
+    text-transform: uppercase;
+   font-size: 16px;
+}
+
+
+#heart_pulse {
+    min-height: 600px;
+    min-width: 850px;
+    background-image: url("../img/heart_pulse.jpg");
+ 
+    text-align: left;
+    background-size: 100%;
+    background-size: cover;
+    color: #ffffff;
+}
+
+ul.a {
+    list-style: square;
+}
+
+#heart-rate{
+    font-size: 23px;
+}
+
+
+/* heart Nutritions */
+article#nutri-col{
+   margin-top: 40px;
+    float: left;
+    width: 65%;
+}
+
+#nutri-col {
+    min-height: 500px;
+    background-image: url("../img/nutri.jpg");
+   
+    text-align: center;
+    background-size: 100%;
+    background-size: cover;
+    color: #ec423f;
+}
+
+
+/* Fitness */
+
+
+#cardio {
+    min-height: 500px;
+    background-image: url("../img/cardio.jpg");
+   
+    text-align: center;
+    background-size: 100%;
+    background-size: cover;
+    color: #ec423f;
+}
+
+#cardio2{
+   margin: auto;
+   padding: 30px 30px 30px 50px;
+   text-align: left;
+}
+
+#fitness_h1{
+
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* about */
+
+#about{
+    text-align: center;
+}
+
+#about-col{
+    /* background: lightblue; */
+    min-height: 600px;
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+#about2 li{
+   padding-left: 20px;
+   padding-right: 10px;
+  
+   text-align: left;
+    /* padding: 15px 25px 25px 25px; */
+background: #ffdcf6;
+
+  font-size: medium;
+  color: #000000;
+    text-align: justify;
+}
+
+/* mental health */
+
+
+#mental {
+    min-height: 600px;
+    background-image: url("../img/mental2.jpg");
+   
+    display: inline-flex;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+
+
+
+.mentaldiv{
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    background: #ffdcf6;
+    margin-bottom: 70px;
+}
+
+
+ /* donatation */
+
+ 
+ aside#sidebar2{
+     min-height: 600px;
+     padding-top: 50px;
+    float: right;
+    width: 35%;
+    margin-top: 10px;
+
+}
+
+#sidebar2 img{
+    width: 400px;
+  height: 300px;
+}
+
+
+
+/* BLOG */
+#blogsec{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#blogsec .blog{
+    
+    
+    text-align: center;
+    width: 40%;
+    padding: 5px;
+}
+
+#blogsec .blog img{
+    padding-left: 15px;
+    width: 225px;
+  height: 175px;
+  float: left;
+}
+#blogsec p{
+    padding-top: 10px;
+    padding-left: 300px;
+    text-align: left;
+}
+.blogdiv{
+ 
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    }
+/* media queries */
